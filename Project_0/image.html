@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Google Image Search </title>
+        <style>
+            .main {
+            margin-top: 160px;
+            margin-left: 450px;
+            }
+            input[type = text]{
+                width: 50%;
+                font-size: 20px;
+                padding: 15px;
+                border: 2px solid lightgray;
+                border-radius: 50px;
+                margin: 20px;
+            }
+            input[type = submit]{
+                width: 18%;
+                font-size: 20px;
+                padding: 13px;
+                border-radius: 0px;
+                border: 0px;
+            }
+            a {
+                text-align: center;
+            }
+            #foo {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div align = "right" id = "foo">
+            <br>
+            <a href = "file:///Users/gurjotsinghpandher/Desktop/CS50_Edx/Projects/Project_0/index.html" >Google Search</a>
+        </div>
+        </br>
+        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Google_Images_2015_logo.svg/2880px-Google_Images_2015_logo.svg.png" width = "500px" alt = "google icon" class = "main">
+        <form action = "https://www.google.com/search" >
+            <div align = "center">
+                <input type = "text" name = "q">
+                <input type = "hidden" name="tbm" value="isch">
+                <br>
+                <input type = "submit" value = "Search">
+            </div>
+        </form>
+    </body>
+</html>
